@@ -17,6 +17,7 @@ namespace Business.Concrete
         private IOrderedProductDal _orderedProductDal;
         private IMailService _emailService;
         private IUserDal _userDal;
+
         public OrderManager(IOrderDal orderDal, IOrderedProductDal orderedProductDal, IMailService emailService, IUserDal userDal)
         {
             _orderDal = orderDal;
